@@ -1,0 +1,10 @@
+
+<h1>Selected Task</h1>
+
+<h2> Taskname: <%= @task.description %></h2>
+<p> Status: <%= @task.done %></p>
+<p> Created: <%= @task.created_at %></p>
+<p> Updated: <%= @task.updated_at %></p>
+<p> ************************</p>
+
+<%= link_to "Back to tasks", tasks_path %>
